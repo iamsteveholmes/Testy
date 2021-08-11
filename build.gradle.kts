@@ -7,8 +7,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
-        classpath("com.android.tools.build:gradle:7.1.0-alpha07")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30-RC")
+        classpath("com.android.tools.build:gradle:7.1.0-alpha08")
         classpath("com.squareup.sqldelight:gradle-plugin:$sql_delight_version")
         classpath("io.realm.kotlin:gradle-plugin:$realm_version")
     }
